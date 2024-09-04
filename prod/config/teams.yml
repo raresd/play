@@ -1,0 +1,7 @@
+--- 
+controller_teams: 
+- name: Create team 
+    name: New team in Org
+    description: Team Description
+    organization: Default Org
+    state: present

@@ -1,0 +1,13 @@
+- name: Tower configuration  
+  hosts: localhost
+  gather_facts: no
+  collections:
+    - ansible.controller 
+  tasks:
+    - name: Add project
+      ansible.controller.project:
+        name: "{{ item.name }}"
+        description: "{{ item.description }}"
+        organization: "Default"
+        state: present
+      loop: "{{ controller_projects }}"

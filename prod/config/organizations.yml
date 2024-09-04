@@ -1,0 +1,6 @@
+---
+controller_organizations: 
+  - name: Default 
+    description: "Default Organization"
+  - name: Ansible01
+    description: "Ansible 01 Organization"

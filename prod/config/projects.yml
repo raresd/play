@@ -1,0 +1,7 @@
+---
+controller_projects:
+  - name: "lab1"
+    description: "Test project #2"
+controller_organizations:
+  - name: "OrgCrossTeams"
+    description: "Organization to run playbooks Cross Teams"
